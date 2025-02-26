@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files
+data/processed/*
+data/augmented/*
+data/raw/*
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.txt
+*.xlsx
+*.xls
+*.parquet
+*.arrow
+!data/processed/.gitkeep
+!data/augmented/.gitkeep
+!data/raw/.gitkeep
+
+# Large files and model checkpoints
+saved_models/*/version_*/model.bin
+saved_models/*/version_*/pytorch_model.bin
+saved_models/*/version_*/optimizer.pt
+saved_models/*/version_*/scheduler.pt
+saved_models/*/version_*/training_args.bin
+saved_models/*/version_*/tokenizer.json
+saved_models/*/version_*/vocab.txt
+saved_models/*/version_*/spiece.model
+*.ckpt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.model
+*.bin
+*.pt
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# Keep configs even in model directories
+!saved_models/*/version_*/config.json
+!saved_models/*/version_*/special_tokens_map.json
+!saved_models/*/version_*/tokenizer_config.json
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+runs/
+*.out
+nohup.out
+
+# Cache directories
+.cache/
+*_cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
+cc.bn.300.bin.gz.part
+fasttext/cc.bn.300.bin.gz
